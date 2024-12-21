@@ -1,5 +1,5 @@
 # FoodLossBananaSolution
-![image](https://github.com/user-attachments/assets/fdd64111-7887-40fe-97da-4d07efdf1586)
+
 Problem:
 Bananas, a perishable fruit, release ethylene gas as they ripen, accelerating the ripening process of surrounding bananas. This can lead to significant losses in large-scale storage facilities if not detected and addressed promptly.
 
@@ -13,6 +13,8 @@ How it works:
 3. AI Analysis: Amazon ECS, using a pre-trained model, analyzes the images to determine the ripeness level of each banana.
 4. Data Storage: Results are stored in Amazon DynamoDB.
 5. Alerting: If a banana is detected as ripe, an alert is sent via Amazon SNS.
+
+![image](https://github.com/user-attachments/assets/fdd64111-7887-40fe-97da-4d07efdf1586)
 
 Benefits:
 
