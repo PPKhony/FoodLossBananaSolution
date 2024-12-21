@@ -7,11 +7,12 @@ This project proposes an AI-powered image recognition system to detect ripening 
 
 How it works:
 
-Image Capture: Cameras capture images of bananas.
-Image Upload: Images are uploaded to Amazon S3.
-AI Analysis: Amazon ECS, using a pre-trained model, analyzes the images to determine the ripeness level of each banana.
-Data Storage: Results are stored in Amazon DynamoDB.
-Alerting: If a banana is detected as ripe, an alert is sent via Amazon SNS.
+1. Image Capture: Cameras capture images of bananas.
+2. Image Upload: Images are uploaded to Amazon S3.
+3. AI Analysis: Amazon ECS, using a pre-trained model, analyzes the images to determine the ripeness level of each banana.
+4. Data Storage: Results are stored in Amazon DynamoDB.
+5. Alerting: If a banana is detected as ripe, an alert is sent via Amazon SNS.
+
 Benefits:
 
 Reduced Food Waste: Timely detection of ripe bananas prevents mass spoilage.
